@@ -1,2 +1,15 @@
 FROM quay.io/fedora/fedora
-RUN dnf -y update && dnf -y install telnet openssh-clients git golang autoconf make  && dnf clean all
+RUN dnf -y update && dnf -y install \
+		openssh-clients \
+		git \
+		golang \
+		autoconf \
+		make \
+		bind-utils \
+		telnet \
+		nmap-ncat \
+		nmap \
+		podman \
+		buildah
+
+RUN dnf clean all
