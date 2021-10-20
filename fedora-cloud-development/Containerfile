@@ -9,6 +9,8 @@ RUN dnf -y update && dnf -y install \
 		telnet \
 		nmap-ncat \
 		nmap \
+		gcc \
+		rpm-build \
 		podman \
 		buildah
 
