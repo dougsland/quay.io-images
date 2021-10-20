@@ -13,6 +13,8 @@ RUN dnf -y update && dnf -y install \
 		rpm-build \
 		podman \
 		buildah \
-		ftp
+		ftp \
+		vim-enhanced \
+		ctags
 
 RUN dnf clean all
