@@ -17,6 +17,8 @@ RUN dnf -y update && dnf -y install \
 		vim-enhanced \
 		ctags \
 		tcpdump \
-		python3
+		python3 \
+		pylint \
+		pyflakes
 
 RUN dnf clean all
