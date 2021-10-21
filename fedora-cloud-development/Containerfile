@@ -19,6 +19,6 @@ RUN dnf -y update && dnf -y install \
 		tcpdump \
 		python3 \
 		pylint \
-		pyflakes
+		python3-pyflakes
 
 RUN dnf clean all
