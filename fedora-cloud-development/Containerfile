@@ -11,6 +11,7 @@ RUN dnf -y update && dnf -y install \
 		nmap \
 		gcc \
 		rpm-build \
+		iputils \
 		podman \
 		buildah \
 		ftp \
